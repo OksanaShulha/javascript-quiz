@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="../../../styles/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <script type="module">
+      import { appendComponent } from '../../../lib/append-component.js';
+
+      import { inputGreeting } from './input-greeting.js';
+
+      appendComponent(inputGreeting(), 'test 1');
+
+      appendComponent(inputGreeting(), 'test 2');
+
+      appendComponent(inputGreeting(), 'test 3');
+    </script>
+  </body>
+</html>
