@@ -1,0 +1,15 @@
+{
+  "--defaults": {
+    ".js": "highlight"
+  },
+  "study": {
+    "type": "module",
+    "tests": [".spec.js"],
+    "run": true,
+    "debug": true,
+    "environment": true,
+    "eslint": true,
+    "save": true,
+    "table": true
+  }
+}
