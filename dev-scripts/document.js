@@ -94,10 +94,7 @@ const appendToDocs = async (absolutePath, depth = 1) => {
       continue;
     }
 
-    const splitAbsPath = subPath.split(path.sep);
-    const relativePath = splitAbsPath
-      .slice(splitAbsPath.length - (depth + 1), splitAbsPath.length)
-      .join('/');
+    const relativePath = subPath.replace(path.join(process.cwd()), '..');
 
     const anchorId = relativePath
       .split(' ')
@@ -115,6 +112,7 @@ const appendToDocs = async (absolutePath, depth = 1) => {
     });
 
     const kindlessDocs = docs.replace(/\*\*Kind[^\n]+/g, '\n');
+    console.log(relativePath);
     newDocs +=
       // '\n\n---\n\n' +
       '\n\n' +

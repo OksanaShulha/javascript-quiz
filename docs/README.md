@@ -16,26 +16,26 @@
 
 - components
   - layout
-    - [footer.js](#srccomponentslayoutfooterjs)
-    - [navbar.js](#srccomponentslayoutnavbarjs)
-    - [page.js](#srccomponentslayoutpagejs)
+    - [footer.js](#clientsrccomponentslayoutfooterjs)
+    - [navbar.js](#clientsrccomponentslayoutnavbarjs)
+    - [page.js](#clientsrccomponentslayoutpagejs)
   - pages
     - home
-      - [index.js](#srccomponentspageshomeindexjs)
+      - [index.js](#clientsrccomponentspageshomeindexjs)
     - questions
-      - [index.js](#srccomponentspagesquestionsindexjs)
+      - [index.js](#clientsrccomponentspagesquestionsindexjs)
     - quiz
-      - [index.js](#srccomponentspagesquizindexjs)
+      - [index.js](#clientsrccomponentspagesquizindexjs)
   - shared
-    - [input-greeting.js](#srccomponentssharedinput-greetingjs)
+    - [input-greeting.js](#clientsrccomponentssharedinput-greetingjs)
 - handlers
-  - [change-greeting.js](#srchandlerschange-greetingjs)
+  - [change-greeting.js](#clientsrchandlerschange-greetingjs)
 - init
-  - [index.js](#srcinitindexjs)
-  - [router.js](#srcinitrouterjs)
-  - [state.js](#srcinitstatejs)
+  - [index.js](#clientsrcinitindexjs)
+  - [router.js](#clientsrcinitrouterjs)
+  - [state.js](#clientsrcinitstatejs)
 - logic
-- [routes.js](#srcroutesjs)
+- [routes.js](#clientsrcroutesjs)
 
 ---
 
@@ -47,7 +47,7 @@
 
 ## /layout
 
-<details><summary><a href="../src/components/layout/footer.js" id="srccomponentslayoutfooterjs">src/components/layout/footer.js</a></summary>
+<details><summary><a href="../../client/src/components/layout/footer.js" id="clientsrccomponentslayoutfooterjs">../client/src/components/layout/footer.js</a></summary>
 
 <a name="footer"></a>
 
@@ -59,7 +59,7 @@ The shared footer.
 
 </details>
 
-<details><summary><a href="../src/components/layout/navbar.js" id="srccomponentslayoutnavbarjs">src/components/layout/navbar.js</a></summary>
+<details><summary><a href="../../client/src/components/layout/navbar.js" id="clientsrccomponentslayoutnavbarjs">../client/src/components/layout/navbar.js</a></summary>
 
 <a name="navbar"></a>
 
@@ -75,7 +75,7 @@ The shared navbar.
 
 </details>
 
-<details><summary><a href="../src/components/layout/page.js" id="srccomponentslayoutpagejs">src/components/layout/page.js</a></summary>
+<details><summary><a href="../../client/src/components/layout/page.js" id="clientsrccomponentslayoutpagejs">../client/src/components/layout/page.js</a></summary>
 
 <a name="page"></a>
 
@@ -101,7 +101,7 @@ The page layout component.
 
 ### /home
 
-<details><summary><a href="../src/components/pages/home/index.js" id="srccomponentspageshomeindexjs">src/components/pages/home/index.js</a></summary>
+<details><summary><a href="../../client/src/components/pages/home/index.js" id="clientsrccomponentspageshomeindexjs">../client/src/components/pages/home/index.js</a></summary>
 
 <a name="home"></a>
 
@@ -117,7 +117,7 @@ The home page.
 
 ### /questions
 
-<details><summary><a href="../src/components/pages/questions/index.js" id="srccomponentspagesquestionsindexjs">src/components/pages/questions/index.js</a></summary>
+<details><summary><a href="../../client/src/components/pages/questions/index.js" id="clientsrccomponentspagesquestionsindexjs">../client/src/components/pages/questions/index.js</a></summary>
 
 <a name="questions"></a>
 
@@ -133,7 +133,7 @@ The questions page.
 
 ### /quiz
 
-<details><summary><a href="../src/components/pages/quiz/index.js" id="srccomponentspagesquizindexjs">src/components/pages/quiz/index.js</a></summary>
+<details><summary><a href="../../client/src/components/pages/quiz/index.js" id="clientsrccomponentspagesquizindexjs">../client/src/components/pages/quiz/index.js</a></summary>
 
 <a name="quiz"></a>
 
@@ -151,7 +151,7 @@ The quiz page.
 
 ## /shared
 
-<details><summary><a href="../src/components/shared/input-greeting.js" id="srccomponentssharedinput-greetingjs">src/components/shared/input-greeting.js</a></summary>
+<details><summary><a href="../../client/src/components/shared/input-greeting.js" id="clientsrccomponentssharedinput-greetingjs">../client/src/components/shared/input-greeting.js</a></summary>
 
 </details>
 
@@ -161,7 +161,7 @@ The quiz page.
 
 # /handlers
 
-<details><summary><a href="../src/handlers/change-greeting.js" id="srchandlerschange-greetingjs">src/handlers/change-greeting.js</a></summary>
+<details><summary><a href="../../client/src/handlers/change-greeting.js" id="clientsrchandlerschange-greetingjs">../client/src/handlers/change-greeting.js</a></summary>
 
 </details>
 
@@ -169,15 +169,15 @@ The quiz page.
 
 # /init
 
-<details><summary><a href="../src/init/index.js" id="srcinitindexjs">src/init/index.js</a></summary>
+<details><summary><a href="../../client/src/init/index.js" id="clientsrcinitindexjs">../client/src/init/index.js</a></summary>
 
 </details>
 
-<details><summary><a href="../src/init/router.js" id="srcinitrouterjs">src/init/router.js</a></summary>
+<details><summary><a href="../../client/src/init/router.js" id="clientsrcinitrouterjs">../client/src/init/router.js</a></summary>
 
 </details>
 
-<details><summary><a href="../src/init/state.js" id="srcinitstatejs">src/init/state.js</a></summary>
+<details><summary><a href="../../client/src/init/state.js" id="clientsrcinitstatejs">../client/src/init/state.js</a></summary>
 
 </details>
 
@@ -187,7 +187,7 @@ The quiz page.
 
 ---
 
-<details><summary><a href="../src/routes.js" id="srcroutesjs">src/routes.js</a></summary>
+<details><summary><a href="../../client/src/routes.js" id="clientsrcroutesjs">../client/src/routes.js</a></summary>
 
 <a name="module_routes"></a>
 
