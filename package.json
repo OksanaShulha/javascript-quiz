@@ -25,9 +25,6 @@
   },
   "homepage": "https://github.com/hackyourfuturebelgium/word-list",
   "devDependencies": {
-    "@babel/core": "^7.14.3",
-    "@babel/eslint-parser": "^7.14.4",
-    "@babel/plugin-syntax-top-level-await": "^7.12.13",
     "dependency-cruiser": "^10.0.1",
     "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",

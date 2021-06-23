@@ -1,9 +1,7 @@
 {
   "plugins": ["jsdoc", "prefer-arrow", "prettier", "spellcheck"],
-  "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "sourceType": "module",
-    "allowAwaitOutsideFunction": true
+    "sourceType": "module"
   },
   "env": {
     "browser": true
