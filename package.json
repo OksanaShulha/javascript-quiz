@@ -4,7 +4,7 @@
   "scripts": {
     "tree": "depcruise --prefix ../ --include-only \"^client/src\" --exclude sandbox.js --output-type dot client | graphviz -Tsvg -odocs/dependency-graph.svg",
     "tree:html": "depcruise --prefix ../ --include-only \"^client/src\" --exclude sandbox.js  --output-type dot client | graphviz -Tsvg | depcruise-wrap-stream-in-html > docs/dependency-graph.html",
-    "document": "node ./dev-scripts/document.js && npm run tree && npm run tree:html",
+    "document": "node ./dev-scripts/document.js ../client/src && npm run tree && npm run tree:html",
     "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests ./client/src",
     "lint:css": "stylelint 'client/styles/**/*.css'",
     "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe --fix ./client/src",

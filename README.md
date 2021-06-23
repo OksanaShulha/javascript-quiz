@@ -1,6 +1,19 @@
-# another starter
+# JS Quiz Stater
 
 <!-- describe the project -->
+
+students will be given:
+
+- some starter code for the plumbing and folder layout
+- a backlog of user stories
+- suggested schema for their quiz data
+
+they will need to build:
+
+- wireframes for the 3 pages ("static" home page, quiz page, questions-editing page)
+- initial quiz data
+- development strategy
+- the website
 
 ---
 
@@ -21,9 +34,9 @@
 So you're ready to start coding? If you haven't cloned this repository already you should, and then ...
 
 1. Clone this repository:
-   - `$ git clone git@github.com:HackYourFutureBelgium/word-list.git`
+   - `$ git clone git@github.com:HackYourFutureBelgium/this-repository.git`
 2. Navigate to this repository in your local computer
-   - `$ cd word-list`
+   - `$ cd this-repository`
 3. Install the project's development dependencies - you will need these for the code quality automation:
    - `$ npm install`
 
@@ -31,19 +44,17 @@ So you're ready to start coding? If you haven't cloned this repository already y
 
 ## Running the Site
 
-This is a static website that only uses HTML, CSS and JavaScript, so you can run it directly from VSCode using `liveServer` or another static server like `http-server` or `study-lenses`.
+This is a static website that only uses HTML, CSS and JavaScript, so you can run it directly from VSCode using `liveServer` or another static server like `http-server` or `study-lenses`. But the best way is:
 
-- `index.html` will run your website
+- `npm run dev`
+
+This will launch a development server that will update the website in your browser in real-time. The development server uses [vite.js](https://vitejs.dev/guide/why.html) which is faster and more helpful `liveServer`. Vite will only reload the files that you change, and will display clear error messages in the browser when something goes wrong in creation phase.
 
 ---
 
 ## Developing your Code
 
-This project is a full website so you will need to run it by opening `index.html` in the browser.
-
-It's recommended that you use VSCode to write your HTML, CSS and JavaScript. Each time you make a change in VSCode you will need to go to the browser and refresh to see if it worked. Everything you have learned about the debugger will come in handy! You can use breakpoints and `debugger` statements to step through while your website is running.
-
-The only code in this project that you can develop and test separately from the rest is functions in the `/src/logic` folder, these are _pure functions_ that will need to test. You can develop these either in VSCode or Study Lenses.
+It's recommended that you use VSCode to write your HTML, CSS and JavaScript. Each time you make a change in VSCode the changes will appear automatically in the browser if you used `npm run dev`. Everything you have learned about the debugger will come in handy! You can use breakpoints and `debugger` statements to step through while your website is running.
 
 ---
 
@@ -65,6 +76,7 @@ When you open a PR to `main`/`master` in your repository, GitHub will run the wo
 - **Lint CSS CI**: lints all the .css files in your `/public` folder, if there are any warnings or errors the check will fail.
 - **Test CI**: runs all the `.spec.js` fils in your `/src` folder. If any tests fail, this check will fail.
 - **Document CI**: re-renders the `DOCS.md` file in the root of your repository, making sure that the documentation is always up to date. If the documentation script has any trouble the check will fail.
+- **Build & Deploy**: bundles your code (CSS & JS) into a single minified file and moves it all to the `gh-pages` branch. This way you can develop using modules and well-formatted code, then deploy a tiny cross-browser version of your website for production.
 
 You will not be able to merge your branch until all the checks pass. These checks will be run again each time you push changes to your branch, so no worries if you don't pass the checks on your first try.
 
