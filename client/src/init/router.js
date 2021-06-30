@@ -8,7 +8,7 @@ import Navigo from '../../lib/navigo/index.js';
 
 import { routes } from '../routes.js';
 
-const router = new Navigo('/');
+const router = new Navigo(window.location.href);
 
 for (const route of routes) {
   router.on(route.path, route.callback);
