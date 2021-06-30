@@ -35,6 +35,7 @@
   - [router.js](#clientsrcinitrouterjs)
   - [state.js](#clientsrcinitstatejs)
 - logic
+  - [reverse.js](#clientsrclogicreversejs)
 - [routes.js](#clientsrcroutesjs)
 
 ---
@@ -184,6 +185,22 @@ The quiz page.
 ---
 
 # /logic
+
+<details><summary><a href="../../client/src/logic/reverse.js" id="clientsrclogicreversejs">../client/src/logic/reverse.js</a></summary>
+
+<a name="reverse"></a>
+
+## reverse ⇒
+
+Reverses a string.
+
+**Returns**: The reversed string.
+
+| Param | Type                | Default                               | Description          |
+| ----- | ------------------- | ------------------------------------- | -------------------- |
+| [str] | <code>string</code> | <code>&quot;&#x27;&#x27;&quot;</code> | A string to reverse. |
+
+</details>
 
 ---
 

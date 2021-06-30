@@ -1,4 +1,4 @@
-# JS Quiz Stater
+# JS Quiz Starter
 
 <!-- describe the project -->
 

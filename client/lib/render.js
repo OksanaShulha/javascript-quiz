@@ -1,5 +1,5 @@
 /**
- * renders a string of HTML
+ * Renders a string of HTML.
  */
 export const render = (html) => {
   if (typeof html !== 'string') {

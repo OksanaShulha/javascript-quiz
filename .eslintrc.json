@@ -74,6 +74,7 @@
     "guard-for-in": 0,
     "no-warning-comments": 1,
     "prefer-destructuring": 1,
+    "no-nested-ternary": 0,
     "no-restricted-syntax": [
       0,
       {
