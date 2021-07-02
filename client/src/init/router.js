@@ -4,11 +4,15 @@
  * @exports router
  */
 
+import { config } from '../../config.js';
+
 import Navigo from '../../lib/navigo/index.js';
 
 import { routes } from '../routes.js';
 
-const router = new Navigo(window.location.href);
+const router = window.location.href.includes(config.deploymentBase)
+  ? new Navigo(config.deploymentBase)
+  : new Navigo('/');
 
 for (const route of routes) {
   router.on(route.path, route.callback);
