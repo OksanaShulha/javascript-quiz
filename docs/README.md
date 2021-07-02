@@ -128,11 +128,6 @@ The questions page.
 
 **Returns**: <code>HTMLDivElement</code> - A rendered questions page.
 
-| Param   | Type                | Description                           |
-| ------- | ------------------- | ------------------------------------- |
-| data    | <code>object</code> | All URL parameters.                   |
-| data.id | <code>number</code> | The id from the URL parameter, or -1. |
-
 </details>
 
 ---
@@ -148,11 +143,6 @@ The questions page.
 The quiz page.
 
 **Returns**: <code>HTMLDivElement</code> - A rendered quiz page.
-
-| Param   | Type                | Description                           |
-| ------- | ------------------- | ------------------------------------- |
-| data    | <code>object</code> | All URL parameters.                   |
-| data.id | <code>number</code> | The id from the URL parameter, or -1. |
 
 </details>
 

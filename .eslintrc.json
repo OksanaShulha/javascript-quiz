@@ -8,13 +8,13 @@
   },
   "overrides": [
     {
-      "files": ["**/logic/*.js"],
+      "files": ["**/logic/**/*.js"],
       "env": {
         "browser": false
       }
     },
     {
-      "files": ["**/service-calls/**/*.js"],
+      "files": ["**/api-calls/**/*.js"],
       "env": {
         "browser": false
       },
@@ -29,7 +29,6 @@
         "no-undefined": 0
       },
       "env": {
-        "browser": false,
         "jest": true
       }
     },

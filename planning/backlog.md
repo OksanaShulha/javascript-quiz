@@ -8,39 +8,43 @@ A collection of user stories you can choose from. Stories inside of each priorit
 
 > these are necessary for basic usability
 
-- [ ] A user can read instructions for the quiz
-  - _acceptance criteria ..._
-- [ ] A user can see all questions
-  - _acceptance criteria ..._
-- [ ] A user can select an answer for each question
-  - _acceptance criteria ..._
-- [ ] A user can know which questions they got correct and incorrect
-  - _acceptance criteria ..._
-- [ ] A user can see the correct answer for questions
-  - _acceptance criteria ..._
-- [ ] A user can see their score at the end of the quiz
-  - _acceptance criteria ..._
+- **Home Page**
+  - [ ] a user can read instructions for the quiz
+    - _acceptance criteria ..._
+  - [ ] a user can know how many questions are in the quiz
+    - _acceptance criteria ..._
+- **Quiz Page**
+  - [ ] a user can start/restart the quiz
+    - _acceptance criteria ..._
+  - [ ] a user can select one or more answers for the current question
+    - _acceptance criteria ..._
+  - [ ] a user can go forward to the next question
+    - _acceptance criteria ..._
+  - [ ] a user can see their score at the end of the quiz
+    - _acceptance criteria ..._
 
 ## Should-Haves
 
 > these will complete the user experience, but are not necessary
 
-- [ ] A user can see one question at a time, stepping through the quiz (may require refactoring)
-  - _acceptance criteria ..._
-- [ ] A user can "cheat" to see the correct answer, this forfeits the question
-  - _acceptance criteria ..._
-- [ ] A user has access to resources for further study on each question
-  - _acceptance criteria ..._
-- [ ] A user can see their score update in real-time as they select answers
-  - _acceptance criteria ..._
+- **Quiz Page**
+  - [ ] a user can see how far they are through the quiz
+    - _acceptance criteria ..._
+  - [ ] a user can see their current score update with each question
+    - _acceptance criteria ..._
+  - [ ] a user can go backwards to correct a previous question
+    - _acceptance criteria ..._
+  - [ ] a user can see the correct answer(s) for each question after choosing their answer
+    - _acceptance criteria ..._
 
 ## Could-Haves
 
 > would be really cool ... if there's time
 
-- [ ] A user can modify a question in the quiz
-  - _acceptance criteria ..._
-- [ ] A user can remove questions from the quiz
-  - _acceptance criteria ..._
-- [ ] A user can add questions to the quiz
-  - _acceptance criteria ..._
+- **Questions Page**
+  - [ ] a user can create a new question
+    - _acceptance criteria ..._
+  - [ ] a user can delete a question
+    - _acceptance criteria ..._
+  - [ ] a user can update a question
+    - _acceptance criteria ..._

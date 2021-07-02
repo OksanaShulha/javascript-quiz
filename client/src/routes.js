@@ -10,25 +10,27 @@ import { questions } from './components/pages/questions/index.js';
  * @exports routes
  */
 
-const parse = (params = {}) =>
-  !params
-    ? {}
-    : Object.fromEntries(
-        Object.entries(params)
-          .filter((param) => param[1] !== 'undefined')
-          .map((param) => [
-            param[0],
-            param[1] !== '' && !Number.isNaN(Number(param[1]))
-              ? Number(param[1])
-              : param[1] === 'true'
-              ? true
-              : param[1] === 'false'
-              ? false
-              : param[1] === 'null'
-              ? null
-              : param[1],
-          ])
-      );
+const parse = (params = {}) => {
+  if (params === null || typeof params !== 'object') {
+    return {};
+  }
+  return Object.fromEntries(
+    Object.entries(params)
+      .filter((param) => param[1] !== 'undefined')
+      .map((param) => [
+        param[0],
+        param[1] !== '' && !Number.isNaN(Number(param[1]))
+          ? Number(param[1])
+          : param[1] === 'true'
+          ? true
+          : param[1] === 'false'
+          ? false
+          : param[1] === 'null'
+          ? null
+          : param[1],
+      ])
+  );
+};
 
 export const routes = [];
 
@@ -55,16 +57,8 @@ const routeHandler =
     callback: routeHandler(quiz),
   },
   {
-    path: `/quiz/:id`,
-    callback: routeHandler(quiz),
-  },
-  {
     name: 'questions',
     path: `/questions`,
-    callback: routeHandler(questions),
-  },
-  {
-    path: `/questions/:id`,
     callback: routeHandler(questions),
   },
 ].forEach((route) => routes.push(route));

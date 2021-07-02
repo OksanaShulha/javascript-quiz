@@ -1,3 +1,3 @@
 export const config = {
-  deploymentBase: '/javascript-quiz',
+  repoName: 'javascript-quiz',
 };

@@ -10,8 +10,8 @@ import Navigo from '../../lib/navigo/index.js';
 
 import { routes } from '../routes.js';
 
-const router = window.location.href.includes(config.deploymentBase)
-  ? new Navigo(config.deploymentBase)
+const router = window.location.href.includes(config.repoName)
+  ? new Navigo(`/${config.repoName}`)
   : new Navigo('/');
 
 for (const route of routes) {
