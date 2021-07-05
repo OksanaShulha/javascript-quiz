@@ -30,4 +30,4 @@
 * Check boxes. It is a combination with all squares and questions.
   * Check mark (with red, green or not highlighted components as an arguments or parameters).
 * Progression bar with passed questions (correct and incorrect answers) and    not yet passed.
-* Header.
+
