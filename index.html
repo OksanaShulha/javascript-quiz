@@ -1,78 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/public/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz</title>
 
-    <link href="./client/styles/index.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./client/public/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
 
-  </head>
-  <body>
-    <div id="root"></div>
+  <link href="./client/styles/index.css" rel="stylesheet" />
+</head>
 
-    <div class="home-box custom-box hide">
-      <h3>Instruction:</h3>
-      <p>Total number of questions:<span class="total-questions">5</span></p>
-      <button type="button" class="btn">Start Quiz</button>
-    </div>
-  
-    
-    <div class="quiz-box custom-box">
-          <div class="question-number">
-            Question 1 of 5
-          </div>
-          <div class="question-text">
-            Expression result:"13"+7
-          </div>
-          <div class="option-container">
-            <div class="option">20</div>
-            <div class="option">137</div>
-            <div class="option">undefind</div>
-            <div class="option">error</div>
-          </div>
-          <div class="next-question-btn">
-            <button type="button" class="btn">Next</button>
-          </div>
-          <div class="answers-indicator">
-          </div>
-    </div>
+<body>
+  <div id="root"></div>
 
-    <div class="result-box custom-box hide">
-      <h1>Quiz result</h1>
-      <table>
-        <tr>
-          <td>Total Question</td>
-          <td><span class="total-question">5</span></td>
-        </tr>
-        <tr>
-          <td>Attempt</td>
-          <td><span class="total-attempt">4</span></td>
-        </tr>
-        <tr>
-          <td>Correct</td>
-          <td><span class="total-correct">3</span></td>
-        </tr>
-        <tr>
-          <td>Total Wrong</td>
-          <td><span class="total-wrong">1</span></td>
-        </tr>
-        <tr>
-          <td>Percentage</td>
-          <td><span class="total-persentage">60.00%</span></td>
-        </tr>
-        <tr>
-          <td>Your Total Score</td>
-          <td><span class="total-question">3 / 5</span></td>
-        </tr>
-      </table>
-      <button type="button" class="btn">Try Again</button>
-      <button type="button" class="btn">Go To Home</button>>
+  <script type="module" src="./client/src/init/index.js"></script>
+</body>
 
-    </div>
-
-
-    <script type="module" src="./client/src/init/index.js"></script>
-  </body>
 </html>
