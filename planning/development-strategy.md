@@ -28,6 +28,6 @@
 * Title and text feedback (with one parameter "text" but with different data).
 * Question (with title "Question with number" and paragraph question itself).
 * Answers
-* Table
+* Result table
 * Progression bar with passed questions (correct and incorrect answers) and which not yet passed.
 
