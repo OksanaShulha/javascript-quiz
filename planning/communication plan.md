@@ -3,9 +3,9 @@
 Name   | Available time
 ------ | ----------------------------
 Oksana | from 8:00 to 18:00 every day
-Rafael |from 8:00 to 18:00 every day
-Saban  |
-Zehra  |
+Rafael | from 8:00 to 18:00 every day
+Saban  | from 10:00 to 20:00, Friday from 15:00 to 20:00
+Zehra  | from 10:00 to 20:00, Friday from 15:00 to 20:00
 Furkan |
 
 Work progress is updated regularly on [![SlACK](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://hackyourfuturebe.slack.com/archives/C01J9PWM3T5)
