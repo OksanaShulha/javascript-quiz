@@ -25,8 +25,7 @@
 # Components
 
 * Button. Save text-argument(parameter) and color-argument(parameter).
-* Title home page + result page (with one parameter "text" but with different data).
-* Title question with number of question and question by itself.
+* Component to be used as Title for home page, result page and questions
 * Answers.
 * Result table.
 * Progression bar with passed questions (correct and incorrect answers) and which not yet passed.
