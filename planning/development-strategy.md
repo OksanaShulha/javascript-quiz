@@ -26,8 +26,8 @@
 
 * Button. Save text-argument(parameter) and color-argument(parameter).
 * Title and text feedback (with one parameter "text" but with different data).
-* Question (with title "Question with number" and paragraph question itself).
-* Answers
-* Result table
+* Title question with number of question and question by itself.
+* Answers.
+* Result table.
 * Progression bar with passed questions (correct and incorrect answers) and which not yet passed.
 
