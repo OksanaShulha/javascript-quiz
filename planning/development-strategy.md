@@ -25,7 +25,7 @@
 # Components
 
 * Button. Save text-argument(parameter) and color-argument(parameter).
-* Title and text feedback (with one parameter "text" but with different data).
+* Title home page + result page (with one parameter "text" but with different data).
 * Title question with number of question and question by itself.
 * Answers.
 * Result table.
