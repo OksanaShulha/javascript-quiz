@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 .body {
+  width: 100%;
   height: 50vh;
   position: fixed;
   top: 50%;
@@ -160,4 +161,47 @@ text-align: center;
 }
 .result-box .btn{
   margin-right: 20px;
+}
+
+.instruction {
+  width: 100%;
+  background-color: #ada5dd;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 90px;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 34px;
+  
+}
+
+.instruction-h {
+
+font-weight: bolder;
+text-align: center;
+
+color: white;
+
+}
+
+.instruction-p {
+
+
+color: whitesmoke;
+
+}
+
+.instruction-btn {
+
+  width: 200px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #ffff;
+  border-width: 0px;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+
+
+
 }

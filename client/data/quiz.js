@@ -39,6 +39,43 @@ export const data = {
       ],
     },
     {
+      question:
+        'Which are correct ways to declare a variable in JavaScript? (strict mode)',
+      answered: false,
+      answers: [
+        {
+          text: 'const name = "Tim";',
+          correct: true,
+          selected: false,
+        },
+        {
+          text: 'name = "Tim";',
+          correct: false,
+          selected: false,
+        },
+        {
+          text: 'let name = "Tim";',
+          correct: true,
+          selected: false,
+        },
+        {
+          text: 'var name = "Tim";',
+          correct: true,
+          selected: false,
+        },
+      ],
+      links: [
+        {
+          text: 'javascript.info',
+          url: 'https://javascript.info/variables',
+        },
+        {
+          text: 'Tyler McGinnis',
+          url: 'https://ui.dev/var-let-const/',
+        },
+      ],
+    },
+    {
       question: 'What does `typeof` do?',
       answered: false,
       answers: [
