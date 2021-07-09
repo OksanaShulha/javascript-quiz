@@ -1,4 +1,4 @@
-import { inputGreeting } from '../../shared/input-greeting.js';
+import { inputGreeting } from "../../shared/input-greeting.js";
 
 /**
  * The questions page.
@@ -6,8 +6,8 @@ import { inputGreeting } from '../../shared/input-greeting.js';
  * @returns {HTMLDivElement} A rendered questions page.
  */
 export const questions = () => {
-  const container = document.createElement('div');
-  container.className = 'body';
+  const container = document.createElement("div");
+  container.className = "body";
 
   container.appendChild(inputGreeting());
 
