@@ -1,9 +1,9 @@
 export const data = {
-  greeting: 'hello',
+  greeting: "hello",
   questions: [
     {
       question:
-        'Which are correct ways to declare a variable in JavaScript? (strict mode)',
+        "Which are correct ways to declare a variable in JavaScript? (strict mode)",
       answered: false,
       answers: [
         {
@@ -29,50 +29,58 @@ export const data = {
       ],
       links: [
         {
-          text: 'javascript.info',
-          url: 'https://javascript.info/variables',
+          text: "javascript.info",
+          url: "https://javascript.info/variables",
         },
         {
-          text: 'Tyler McGinnis',
-          url: 'https://ui.dev/var-let-const/',
+          text: "Tyler McGinnis",
+          url: "https://ui.dev/var-let-const/",
         },
       ],
     },
     {
-      question: 'What does `typeof` do?',
+      question: "What does `typeof` do?",
       answered: false,
       answers: [
         {
-          text: 'changes the type of a primitive value',
+          text: "changes the type of a primitive value",
           correct: false,
           selected: false,
         },
         {
-          text: 'returns a string describing the type of a value',
+          text: "returns a string describing the type of a value",
           correct: true,
           selected: false,
         },
         {
-          text: 'determines if a value is primitive',
+          text: "determines if a value is primitive",
           correct: false,
           selected: false,
         },
         {
-          text: 'can tell the difference between arrays and objects',
+          text: "can tell the difference between arrays and objects",
           correct: false,
           selected: false,
         },
       ],
       links: [
         {
-          text: 'javascript.info',
-          url: 'https://javascript.info/types#type-typeof',
+          text: "javascript.info",
+          url: "https://javascript.info/types#type-typeof",
         },
         {
-          text: 'MDN',
-          url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof',
+          text: "MDN",
+          url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof",
         },
       ],
     },
   ],
+  results: {
+    totalQuestions: 0,
+    attempts: 0,
+    correctAnswers: 0,
+    wrongAnswers: 0,
+    percentage: 0,
+    totalScore: 0,
+  },
 };
