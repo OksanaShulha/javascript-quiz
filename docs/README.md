@@ -36,6 +36,7 @@
   - [state.js](#clientsrcinitstatejs)
 - logic
   - [reverse.js](#clientsrclogicreversejs)
+- [questions-answers.js](#clientsrcquestions-answersjs)
 - [routes.js](#clientsrcroutesjs)
 
 ---
@@ -203,6 +204,10 @@ Reverses a string.
 </details>
 
 ---
+
+<details><summary><a href="../../client/src/questions-answers.js" id="clientsrcquestions-answersjs">../client/src/questions-answers.js</a></summary>
+
+</details>
 
 <details><summary><a href="../../client/src/routes.js" id="clientsrcroutesjs">../client/src/routes.js</a></summary>
 

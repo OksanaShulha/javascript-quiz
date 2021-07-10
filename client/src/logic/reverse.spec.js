@@ -1,5 +1,5 @@
-import { reverse } from './reverse.js';
+import { reverse } from "./reverse.js";
 
-describe('it reverses a string', () => {
-  it('works', () => expect(reverse('abc')).toEqual('cba'));
+describe("it reverses a string", () => {
+  it("works", () => expect(reverse("abc")).toEqual("cba"));
 });
