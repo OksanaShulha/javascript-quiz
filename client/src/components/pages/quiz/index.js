@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import { inputGreeting } from "../../shared/input-greeting.js";
 
 /**
@@ -21,8 +20,11 @@ const toggleClass = (obj, newClass) => {
   obj.classList[0].remove();
   obj.classList.add(newClass);
 };
+// eslint-disable-next-line no-undef
 if (answer === true){
+  // eslint-disable-next-line no-undef
   toggleClass(target.green);
 } else {
+  // eslint-disable-next-line no-undef
   toggleClass(target.red);
 }
