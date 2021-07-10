@@ -1,4 +1,4 @@
-/* eslint-disable spellcheck/spell-checker */
+
 import { inputGreeting } from "../../shared/input-greeting.js";
 
 /**

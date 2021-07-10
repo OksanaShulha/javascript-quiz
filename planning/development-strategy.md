@@ -20,5 +20,14 @@
 
   everything else should work already!
 
-
 -->
+
+# Components
+
+* Button. Save text-argument(parameter) and color-argument(parameter).
+* Component to be used as Title for home page, result page and questions
+* Answers.
+* Toggle.
+* Result table.
+* Progression bar with passed questions (correct and incorrect answers) and which not yet passed.
+
