@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="../../../styles/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <script type="module">
+      import { appendComponent } from '../../../lib/append-component.js';
+
+      import { inputGreeting } from './input-greeting.js';
+
+      import { titleDescription } from "./title-description.js";
+
+      appendComponent(titleDescription("title", "description"), 'test 1');
+
+    </script>
+  </body>
+</html>
