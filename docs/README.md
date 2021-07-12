@@ -19,6 +19,7 @@
     - [footer.js](#clientsrccomponentslayoutfooterjs)
     - [navbar.js](#clientsrccomponentslayoutnavbarjs)
     - [page.js](#clientsrccomponentslayoutpagejs)
+    - [table.js](#clientsrccomponentslayouttablejs)
   - pages
     - home
       - [index.js](#clientsrccomponentspageshomeindexjs)
@@ -35,6 +36,7 @@
   - [router.js](#clientsrcinitrouterjs)
   - [state.js](#clientsrcinitstatejs)
 - logic
+  - [camelCaseToTitleCase.js](#clientsrclogiccamelCaseToTitleCasejs)
   - [reverse.js](#clientsrclogicreversejs)
 - [routes.js](#clientsrcroutesjs)
 
@@ -93,6 +95,10 @@ The page layout component.
 | ------------- | ------------------------------------------------- | ----------------------------------------- |
 | bodyComponent | <code>function</code> \| <code>HTMLElement</code> | The body for the newly rendered page.     |
 | routes        | <code>object</code>                               | The application's routes, for the navbar. |
+
+</details>
+
+<details><summary><a href="../../client/src/components/layout/table.js" id="clientsrccomponentslayouttablejs">../client/src/components/layout/table.js</a></summary>
 
 </details>
 
@@ -185,6 +191,10 @@ The quiz page.
 ---
 
 # /logic
+
+<details><summary><a href="../../client/src/logic/camelCaseToTitleCase.js" id="clientsrclogiccamelCaseToTitleCasejs">../client/src/logic/camelCaseToTitleCase.js</a></summary>
+
+</details>
 
 <details><summary><a href="../../client/src/logic/reverse.js" id="clientsrclogicreversejs">../client/src/logic/reverse.js</a></summary>
 

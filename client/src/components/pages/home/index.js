@@ -1,4 +1,4 @@
-import { inputGreeting } from '../../shared/input-greeting.js';
+import { inputGreeting } from "../../shared/input-greeting.js";
 
 /**
  * The home page.
@@ -6,9 +6,9 @@ import { inputGreeting } from '../../shared/input-greeting.js';
  * @returns {HTMLDivElement} A rendered home page.
  */
 export const home = () => {
-  const container = document.createElement('div');
-  container.className = 'body';
-  container.innerHTML = 'home: ';
+  const container = document.createElement("div");
+  container.className = "body";
+  container.innerHTML = "home: ";
 
   container.appendChild(inputGreeting());
 

@@ -34,7 +34,7 @@ export const data = {
         },
         {
           text: "Tyler McGinner",
-          url: "https://ui.dev/var-let-const/",
+           url: "https://ui.dev/var-let-const/",
         },
       ],
     },
@@ -125,4 +125,12 @@ export const data = {
       ],
     },
   ],
+  results: {
+    totalQuestions: 0,
+    attempts: 0,
+    correctAnswers: 0,
+    wrongAnswers: 0,
+    percentage: 0,
+    totalScore: 0,
+  },
 };

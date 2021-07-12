@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="../../../../styles/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <script type="module">
+      import { appendComponent } from '../../../../lib/append-component.js';
+
+      import { progressDot, progressBar } from './progress-bar.js';
+
+      const divRight = document.createElement("div");
+      divRight.innerHTML = "right-answer";
+      appendComponent (divRight, 'test right'); // to render this div with this text everything
+      appendComponent(progressDot('right'), 'test 1'); // to render just right answer
+      const divWrong = document.createElement("div");
+      divWrong.innerHTML = "wrong-answer";
+      appendComponent (divWrong, 'test wrong');
+      appendComponent(progressDot('wrong'), 'test 2');
+      const divNeutral = document.createElement("div");
+      divNeutral.innerHTML = "neutral";
+      appendComponent (divNeutral, 'test neutral');
+      appendComponent(progressDot('neutral'), 'test 3');
+
+
+      const divProgressBar = document.createElement("div");
+      divProgressBar.innerHTML = "progress-bar";
+      appendComponent (divProgressBar, 'test progress-bar');
+      appendComponent(progressBar(["right", "right", "wrong", "neutral"]), 'test 4');
+
+    </script>
+  </body>
+</html>
