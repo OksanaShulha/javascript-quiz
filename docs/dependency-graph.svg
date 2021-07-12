@@ -51,7 +51,7 @@
 </g>
 <g id="clust9" class="cluster">
 <title>cluster_client/src/components/shared</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M296.51,-383.23C296.51,-383.23 368.52,-383.23 368.52,-383.23 374.52,-383.23 380.52,-389.23 380.52,-395.23 380.52,-395.23 380.52,-424.23 380.52,-424.23 380.52,-430.23 374.52,-436.23 368.52,-436.23 368.52,-436.23 296.51,-436.23 296.51,-436.23 290.51,-436.23 284.51,-430.23 284.51,-424.23 284.51,-424.23 284.51,-395.23 284.51,-395.23 284.51,-389.23 290.51,-383.23 296.51,-383.23"/>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M296.51,-352.23C296.51,-352.23 368.52,-352.23 368.52,-352.23 374.52,-352.23 380.52,-358.23 380.52,-364.23 380.52,-364.23 380.52,-424.23 380.52,-424.23 380.52,-430.23 374.52,-436.23 368.52,-436.23 368.52,-436.23 296.51,-436.23 296.51,-436.23 290.51,-436.23 284.51,-430.23 284.51,-424.23 284.51,-424.23 284.51,-364.23 284.51,-364.23 284.51,-358.23 290.51,-352.23 296.51,-352.23"/>
 <text text-anchor="middle" x="332.51" y="-424.13" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">shared</text>
 </g>
 <g id="clust10" class="cluster">
@@ -157,9 +157,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="286.27,-402.33 292.27,-400.23 286.27,-398.13 286.27,-402.33"/>
 </g>
 <!-- client/src/handlers/change&#45;greeting.js -->
-<g id="node11" class="node">
+<g id="node12" class="node">
 <title>client/src/handlers/change&#45;greeting.js</title>
-<g id="a_node11"><a xlink:href="../client/src/handlers/change-greeting.js" xlink:title="change&#45;greeting.js">
+<g id="a_node12"><a xlink:href="../client/src/handlers/change-greeting.js" xlink:title="change&#45;greeting.js">
 <path fill="#ffffcc" stroke="black" d="M371.33,-585.53C371.33,-585.53 293.69,-585.53 293.69,-585.53 290.59,-585.53 287.49,-582.43 287.49,-579.33 287.49,-579.33 287.49,-573.13 287.49,-573.13 287.49,-570.03 290.59,-566.93 293.69,-566.93 293.69,-566.93 371.33,-566.93 371.33,-566.93 374.43,-566.93 377.53,-570.03 377.53,-573.13 377.53,-573.13 377.53,-579.33 377.53,-579.33 377.53,-582.43 374.43,-585.53 371.33,-585.53"/>
 <text text-anchor="middle" x="332.51" y="-573.53" font-family="Helvetica,sans-Serif" font-size="9.00">change&#45;greeting.js</text>
 </a>
@@ -172,9 +172,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="330.41,-560.81 332.51,-566.81 334.61,-560.81 330.41,-560.81"/>
 </g>
 <!-- client/src/init/state.js -->
-<g id="node12" class="node">
+<g id="node13" class="node">
 <title>client/src/init/state.js</title>
-<g id="a_node12"><a xlink:href="../client/src/init/state.js" xlink:title="state.js">
+<g id="a_node13"><a xlink:href="../client/src/init/state.js" xlink:title="state.js">
 <path fill="#ffffcc" stroke="black" d="M495.57,-409.53C495.57,-409.53 453.97,-409.53 453.97,-409.53 450.87,-409.53 447.77,-406.43 447.77,-403.33 447.77,-403.33 447.77,-397.13 447.77,-397.13 447.77,-394.03 450.87,-390.93 453.97,-390.93 453.97,-390.93 495.57,-390.93 495.57,-390.93 498.67,-390.93 501.77,-394.03 501.77,-397.13 501.77,-397.13 501.77,-403.33 501.77,-403.33 501.77,-406.43 498.67,-409.53 495.57,-409.53"/>
 <text text-anchor="middle" x="474.77" y="-397.53" font-family="Helvetica,sans-Serif" font-size="9.00">state.js</text>
 </a>
@@ -187,9 +187,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="441.75,-402.33 447.75,-400.23 441.75,-398.13 441.75,-402.33"/>
 </g>
 <!-- client/src/logic/reverse.js -->
-<g id="node13" class="node">
+<g id="node14" class="node">
 <title>client/src/logic/reverse.js</title>
-<g id="a_node13"><a xlink:href="../client/src/logic/reverse.js" xlink:title="reverse.js">
+<g id="a_node14"><a xlink:href="../client/src/logic/reverse.js" xlink:title="reverse.js">
 <path fill="#ffffcc" stroke="black" d="M496.07,-148.53C496.07,-148.53 453.47,-148.53 453.47,-148.53 450.37,-148.53 447.27,-145.43 447.27,-142.33 447.27,-142.33 447.27,-136.13 447.27,-136.13 447.27,-133.03 450.37,-129.93 453.47,-129.93 453.47,-129.93 496.07,-129.93 496.07,-129.93 499.17,-129.93 502.27,-133.03 502.27,-136.13 502.27,-136.13 502.27,-142.33 502.27,-142.33 502.27,-145.43 499.17,-148.53 496.07,-148.53"/>
 <text text-anchor="middle" x="474.77" y="-136.53" font-family="Helvetica,sans-Serif" font-size="9.00">reverse.js</text>
 </a>
@@ -198,8 +198,8 @@
 <!-- client/src/components/shared/input&#45;greeting.js&#45;&gt;client/src/logic/reverse.js -->
 <g id="edge9" class="edge">
 <title>client/src/components/shared/input&#45;greeting.js&#45;&gt;client/src/logic/reverse.js</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M339.01,-390.82C350.88,-370.43 379.66,-320.65 402.52,-278.23 426.57,-233.59 453.5,-180 466.27,-154.35"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="468.27,-155.05 469.06,-148.74 464.51,-153.18 468.27,-155.05"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M372.79,-398.37C383.56,-396.08 394.48,-391.84 402.52,-384.23 406.87,-380.11 454.9,-207.43 469.55,-154.5"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="471.59,-155 471.17,-148.66 467.54,-153.88 471.59,-155"/>
 </g>
 <!-- client/src/components/pages/questions/index.js -->
 <g id="node8" class="node">
@@ -228,8 +228,8 @@
 <!-- client/src/components/pages/quiz/index.js&#45;&gt;client/src/components/shared/input&#45;greeting.js -->
 <g id="edge6" class="edge">
 <title>client/src/components/pages/quiz/index.js&#45;&gt;client/src/components/shared/input&#45;greeting.js</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M214.77,-348.63C238.95,-359.32 278.47,-376.79 304.73,-388.4"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="304.12,-390.42 310.45,-390.93 305.82,-386.58 304.12,-390.42"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M205.06,-348.69C219.63,-360.45 244.05,-379.56 254.51,-384.23 264.5,-388.7 275.78,-391.94 286.57,-394.28"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="286.2,-396.35 292.5,-395.49 287.04,-392.23 286.2,-396.35"/>
 </g>
 <!-- client/src/components/pages/quiz/progress&#45;bar.js -->
 <g id="node10" class="node">
@@ -237,6 +237,15 @@
 <g id="a_node10"><a xlink:href="../client/src/components/pages/quiz/progress-bar.js" xlink:title="progress&#45;bar.js">
 <path fill="#ccffcc" stroke="black" d="M224.31,-317.53C224.31,-317.53 160.71,-317.53 160.71,-317.53 157.61,-317.53 154.51,-314.43 154.51,-311.33 154.51,-311.33 154.51,-305.13 154.51,-305.13 154.51,-302.03 157.61,-298.93 160.71,-298.93 160.71,-298.93 224.31,-298.93 224.31,-298.93 227.41,-298.93 230.51,-302.03 230.51,-305.13 230.51,-305.13 230.51,-311.33 230.51,-311.33 230.51,-314.43 227.41,-317.53 224.31,-317.53"/>
 <text text-anchor="middle" x="192.51" y="-305.53" font-family="Helvetica,sans-Serif" font-size="9.00">progress&#45;bar.js</text>
+</a>
+</g>
+</g>
+<!-- client/src/components/shared/button.js -->
+<g id="node11" class="node">
+<title>client/src/components/shared/button.js</title>
+<g id="a_node11"><a xlink:href="../client/src/components/shared/button.js" xlink:title="button.js">
+<path fill="#ccffcc" stroke="black" d="M353.31,-378.53C353.31,-378.53 311.71,-378.53 311.71,-378.53 308.61,-378.53 305.51,-375.43 305.51,-372.33 305.51,-372.33 305.51,-366.13 305.51,-366.13 305.51,-363.03 308.61,-359.93 311.71,-359.93 311.71,-359.93 353.31,-359.93 353.31,-359.93 356.41,-359.93 359.51,-363.03 359.51,-366.13 359.51,-366.13 359.51,-372.33 359.51,-372.33 359.51,-375.43 356.41,-378.53 353.31,-378.53"/>
+<text text-anchor="middle" x="332.51" y="-366.53" font-family="Helvetica,sans-Serif" font-size="9.00">button.js</text>
 </a>
 </g>
 </g>
@@ -253,18 +262,18 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="470.82,-155.11 470.66,-148.76 466.82,-153.82 470.82,-155.11"/>
 </g>
 <!-- client/src/init/index.js -->
-<g id="node14" class="node">
+<g id="node15" class="node">
 <title>client/src/init/index.js</title>
-<g id="a_node14"><a xlink:href="../client/src/init/index.js" xlink:title="index.js">
+<g id="a_node15"><a xlink:href="../client/src/init/index.js" xlink:title="index.js">
 <path fill="#ffffcc" stroke="black" d="M495.57,-378.53C495.57,-378.53 453.97,-378.53 453.97,-378.53 450.87,-378.53 447.77,-375.43 447.77,-372.33 447.77,-372.33 447.77,-366.13 447.77,-366.13 447.77,-363.03 450.87,-359.93 453.97,-359.93 453.97,-359.93 495.57,-359.93 495.57,-359.93 498.67,-359.93 501.77,-363.03 501.77,-366.13 501.77,-366.13 501.77,-372.33 501.77,-372.33 501.77,-375.43 498.67,-378.53 495.57,-378.53"/>
 <text text-anchor="middle" x="474.77" y="-366.53" font-family="Helvetica,sans-Serif" font-size="9.00">index.js</text>
 </a>
 </g>
 </g>
 <!-- client/src/init/router.js -->
-<g id="node15" class="node">
+<g id="node16" class="node">
 <title>client/src/init/router.js</title>
-<g id="a_node15"><a xlink:href="../client/src/init/router.js" xlink:title="router.js">
+<g id="a_node16"><a xlink:href="../client/src/init/router.js" xlink:title="router.js">
 <path fill="#ffffcc" stroke="black" d="M597.82,-378.53C597.82,-378.53 556.22,-378.53 556.22,-378.53 553.12,-378.53 550.02,-375.43 550.02,-372.33 550.02,-372.33 550.02,-366.13 550.02,-366.13 550.02,-363.03 553.12,-359.93 556.22,-359.93 556.22,-359.93 597.82,-359.93 597.82,-359.93 600.92,-359.93 604.02,-363.03 604.02,-366.13 604.02,-366.13 604.02,-372.33 604.02,-372.33 604.02,-375.43 600.92,-378.53 597.82,-378.53"/>
 <text text-anchor="middle" x="577.02" y="-366.53" font-family="Helvetica,sans-Serif" font-size="9.00">router.js</text>
 </a>
@@ -277,9 +286,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="543.72,-371.33 549.72,-369.23 543.72,-367.13 543.72,-371.33"/>
 </g>
 <!-- client/src/routes.js -->
-<g id="node16" class="node">
+<g id="node17" class="node">
 <title>client/src/routes.js</title>
-<g id="a_node16"><a xlink:href="../client/src/routes.js" xlink:title="routes.js">
+<g id="a_node17"><a xlink:href="../client/src/routes.js" xlink:title="routes.js">
 <path fill="#ffffcc" stroke="black" d="M94.05,-348.53C94.05,-348.53 52.45,-348.53 52.45,-348.53 49.35,-348.53 46.25,-345.43 46.25,-342.33 46.25,-342.33 46.25,-336.13 46.25,-336.13 46.25,-333.03 49.35,-329.93 52.45,-329.93 52.45,-329.93 94.05,-329.93 94.05,-329.93 97.15,-329.93 100.25,-333.03 100.25,-336.13 100.25,-336.13 100.25,-342.33 100.25,-342.33 100.25,-345.43 97.15,-348.53 94.05,-348.53"/>
 <text text-anchor="middle" x="73.25" y="-336.53" font-family="Helvetica,sans-Serif" font-size="9.00">routes.js</text>
 </a>
@@ -316,9 +325,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="159.15,-341.33 165.15,-339.23 159.15,-337.13 159.15,-341.33"/>
 </g>
 <!-- client/src/logic/camelCaseToTitleCase.spec.js -->
-<g id="node17" class="node">
+<g id="node18" class="node">
 <title>client/src/logic/camelCaseToTitleCase.spec.js</title>
-<g id="a_node17"><a xlink:href="../client/src/logic/camelCaseToTitleCase.spec.js" xlink:title="camelCaseToTitleCase.spec.js">
+<g id="a_node18"><a xlink:href="../client/src/logic/camelCaseToTitleCase.spec.js" xlink:title="camelCaseToTitleCase.spec.js">
 <path fill="#ffffcc" stroke="black" d="M396.32,-86.53C396.32,-86.53 268.7,-86.53 268.7,-86.53 265.6,-86.53 262.5,-83.43 262.5,-80.33 262.5,-80.33 262.5,-74.13 262.5,-74.13 262.5,-71.03 265.6,-67.93 268.7,-67.93 268.7,-67.93 396.32,-67.93 396.32,-67.93 399.42,-67.93 402.52,-71.03 402.52,-74.13 402.52,-74.13 402.52,-80.33 402.52,-80.33 402.52,-83.43 399.42,-86.53 396.32,-86.53"/>
 <text text-anchor="middle" x="332.51" y="-74.53" font-family="Helvetica,sans-Serif" font-size="9.00">camelCaseToTitleCase.spec.js</text>
 </a>
@@ -331,18 +340,18 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="409.6,-79.33 415.6,-77.23 409.6,-75.13 409.6,-79.33"/>
 </g>
 <!-- client/src/logic/progress&#45;bar.js -->
-<g id="node18" class="node">
+<g id="node19" class="node">
 <title>client/src/logic/progress&#45;bar.js</title>
-<g id="a_node18"><a xlink:href="../client/src/logic/progress-bar.js" xlink:title="progress&#45;bar.js">
+<g id="a_node19"><a xlink:href="../client/src/logic/progress-bar.js" xlink:title="progress&#45;bar.js">
 <path fill="#ccffcc" stroke="black" d="M364.31,-117.53C364.31,-117.53 300.71,-117.53 300.71,-117.53 297.61,-117.53 294.51,-114.43 294.51,-111.33 294.51,-111.33 294.51,-105.13 294.51,-105.13 294.51,-102.03 297.61,-98.93 300.71,-98.93 300.71,-98.93 364.31,-98.93 364.31,-98.93 367.41,-98.93 370.51,-102.03 370.51,-105.13 370.51,-105.13 370.51,-111.33 370.51,-111.33 370.51,-114.43 367.41,-117.53 364.31,-117.53"/>
 <text text-anchor="middle" x="332.51" y="-105.53" font-family="Helvetica,sans-Serif" font-size="9.00">progress&#45;bar.js</text>
 </a>
 </g>
 </g>
 <!-- client/src/logic/reverse.spec.js -->
-<g id="node19" class="node">
+<g id="node20" class="node">
 <title>client/src/logic/reverse.spec.js</title>
-<g id="a_node19"><a xlink:href="../client/src/logic/reverse.spec.js" xlink:title="reverse.spec.js">
+<g id="a_node20"><a xlink:href="../client/src/logic/reverse.spec.js" xlink:title="reverse.spec.js">
 <path fill="#ffffcc" stroke="black" d="M364.32,-148.53C364.32,-148.53 300.7,-148.53 300.7,-148.53 297.6,-148.53 294.5,-145.43 294.5,-142.33 294.5,-142.33 294.5,-136.13 294.5,-136.13 294.5,-133.03 297.6,-129.93 300.7,-129.93 300.7,-129.93 364.32,-129.93 364.32,-129.93 367.42,-129.93 370.52,-133.03 370.52,-136.13 370.52,-136.13 370.52,-142.33 370.52,-142.33 370.52,-145.43 367.42,-148.53 364.32,-148.53"/>
 <text text-anchor="middle" x="332.51" y="-136.53" font-family="Helvetica,sans-Serif" font-size="9.00">reverse.spec.js</text>
 </a>
@@ -355,9 +364,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="441.05,-141.33 447.05,-139.23 441.05,-137.13 441.05,-141.33"/>
 </g>
 <!-- client/src/progress&#45;bar&#45;code.js -->
-<g id="node20" class="node">
+<g id="node21" class="node">
 <title>client/src/progress&#45;bar&#45;code.js</title>
-<g id="a_node20"><a xlink:href="../client/src/progress-bar-code.js" xlink:title="progress&#45;bar&#45;code.js">
+<g id="a_node21"><a xlink:href="../client/src/progress-bar-code.js" xlink:title="progress&#45;bar&#45;code.js">
 <path fill="#ffffcc" stroke="black" d="M116.06,-470.53C116.06,-470.53 30.45,-470.53 30.45,-470.53 27.35,-470.53 24.25,-467.43 24.25,-464.33 24.25,-464.33 24.25,-458.13 24.25,-458.13 24.25,-455.03 27.35,-451.93 30.45,-451.93 30.45,-451.93 116.06,-451.93 116.06,-451.93 119.16,-451.93 122.26,-455.03 122.26,-458.13 122.26,-458.13 122.26,-464.33 122.26,-464.33 122.26,-467.43 119.16,-470.53 116.06,-470.53"/>
 <text text-anchor="middle" x="73.25" y="-458.53" font-family="Helvetica,sans-Serif" font-size="9.00">progress&#45;bar&#45;code.js</text>
 </a>
