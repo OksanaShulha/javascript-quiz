@@ -1,6 +1,6 @@
 .navbar {
+  text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  text-decoration: none;
 }
