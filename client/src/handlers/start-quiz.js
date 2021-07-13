@@ -1,4 +1,5 @@
 import { state } from "../init/state.js";
+// eslint-disable-next-line import/no-cycle
 import { router } from "../init/router.js";
 
 export const startQuiz = () => {
