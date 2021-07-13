@@ -1,8 +1,36 @@
+.description {
+
+    height: 50vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+
+    font-size: 16px;
+    color: rgb(20, 19, 19);
+    font-weight: 300;
+    margin-top: 35px;
+    letter-spacing: 5px;
+
+}
+
 .title-header {
+    height: 50vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center
+
     text-align: center;
     margin: auto;
-    padding: 5px; 
-    font-size: medium;
+    padding: 5px;
+    font-weight: 800;
+    font-size: black;
     font-family: 'Times New Roman', Times, serif;
     color:chartreuse;
+    letter-spacing: 10px;
 };
+
+
