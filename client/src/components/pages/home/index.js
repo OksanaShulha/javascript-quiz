@@ -1,5 +1,7 @@
-import { inputGreeting } from "../../shared/input-greeting.js";
-
+// import { inputGreeting } from "../../shared/input-greeting.js";
+import { titleDescription } from "../../shared/title-description.js";
+import { button } from "../../shared/button.js";
+import { startQuiz } from "../../../handlers/start-quiz.js";
 /**
  * The home page.
  *
@@ -8,9 +10,12 @@ import { inputGreeting } from "../../shared/input-greeting.js";
 export const home = () => {
   const container = document.createElement("div");
   container.className = "body";
-  container.innerHTML = "home: ";
+  // container.innerHTML = "home: ";
 
-  container.appendChild(inputGreeting());
-
+  // container.appendChild(inputGreeting());
+  container.appendChild(
+    titleDescription("Instructions", "The number of questions: 5")
+  );
+  container.appendChild(button("Start Quiz", startQuiz));
   return container;
 };
