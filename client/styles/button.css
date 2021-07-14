@@ -1,0 +1,18 @@
+.btn {
+  padding: 15px 45px;
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  display: inline-block;
+  margin: 20px;
+}
+
+.quiz-box .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

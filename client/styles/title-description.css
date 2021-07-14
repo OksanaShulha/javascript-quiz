@@ -1,35 +1,23 @@
 .description {
-
-    height: 50vh;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
-    font-size: 22px;
-    color: #000;
-    line-height: 28px;
-    font-weight: 400;
-    padding: 20px 0;
-    margin-top: 25px;
-
+  font-size: 22px;
+  color: #000;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 20px 0;
+  margin-top: 25px;
 }
 
 .title-header {
-    height: 50vh;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center
-
-    font-size: 18px;
-    color:#009688;
-    font-weight: 600;
-    border-bottom:1px solid #ccc;
-    padding-bottom: 10px;
-    line-height: 25px;
-};
-
-
+  height: 50vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 18px;
+  color: #009688;
+  font-weight: 600;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  line-height: 25px;
+}

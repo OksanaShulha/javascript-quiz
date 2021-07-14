@@ -3,6 +3,7 @@ import { state } from "../init/state.js";
 import { router } from "../init/router.js";
 
 export const startQuiz = () => {
+  debugger;
   for (let i = 0; i < state.questions.length; i++) {
     // we loop through all questions
     const question = state.questions[i]; // we get one specific question
