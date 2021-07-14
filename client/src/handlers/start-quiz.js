@@ -3,7 +3,6 @@ import { state } from "../init/state.js";
 import { router } from "../init/router.js";
 
 export const startQuiz = () => {
-  debugger;
   for (let i = 0; i < state.questions.length; i++) {
     // we loop through all questions
     const question = state.questions[i]; // we get one specific question
@@ -13,7 +12,17 @@ export const startQuiz = () => {
       answerOfQuestion.selected = false;
     }
   }
+  // clean the results
+  for (const key in state.results) {
+    if (key === "totalQuestions") {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+    state.results[key] = 0;
+  }
+
   router.navigate("quiz");
+  console.log(state);
 };
 
 // score = 0

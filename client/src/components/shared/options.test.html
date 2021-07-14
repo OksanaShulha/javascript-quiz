@@ -4,16 +4,16 @@
     <meta charset="utf-8" />
     <title></title>
 
-    <link href="../../../../styles/index.css" rel="stylesheet" />
+    <link href="../../../styles/index.css" rel="stylesheet" />
   </head>
 
   <body>
     <script type="module">
-      import { appendComponent } from '../../../../lib/append-component.js';
+      import { appendComponent } from '../../../lib/append-component.js';
 
       import { options } from "./options.js"
 
-      import { state } from "../../../init/state.js";
+      import { state } from "../../init/state.js";
 
       appendComponent(options(state.questions[0].answers), 'test 1');
     </script>

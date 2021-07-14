@@ -1,79 +1,7 @@
 export const data = {
   greeting: "hello",
+  currentQuestion: 0,
   questions: [
-    {
-      question:
-        "Which are correct ways to declare a variable in JavaScript? (strict mode)",
-      answered: false,
-      answers: [
-        {
-          text: 'const name = "Tim";',
-          correct: true,
-          selected: false,
-        },
-        {
-          text: 'name = "Tim";',
-          correct: false,
-          selected: false,
-        },
-        {
-          text: 'let name = "Tim";',
-          correct: true,
-          selected: false,
-        },
-        {
-          text: 'var name = "Tim";',
-          correct: true,
-          selected: false,
-        },
-      ],
-      links: [
-        {
-          text: "javascript.info",
-          url: "https://javascript.info/variables",
-        },
-        {
-          text: "Tyler McGinner",
-           url: "https://ui.dev/var-let-const/",
-        },
-      ],
-    },
-    {
-      question: "What does `typeof` do?",
-      answered: false,
-      answers: [
-        {
-          text: "changes the type of a primitive value",
-          correct: false,
-          selected: false,
-        },
-        {
-          text: "returns a string describing the type of a value",
-          correct: true,
-          selected: false,
-        },
-        {
-          text: "determines if a value is primitive",
-          correct: false,
-          selected: false,
-        },
-        {
-          text: "can tell the difference between arrays and objects",
-          correct: false,
-          selected: false,
-        },
-      ],
-      links: [
-        {
-          text: "javascript.info",
-          url: "https://javascript.info/types#type-typeof",
-        },
-        {
-          text: "MDN",
-          url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof",
-        },
-      ],
-    },
     {
       question: "What was the first JavaScript name?",
       answered: false,
@@ -96,7 +24,7 @@ export const data = {
     },
     {
       question: "Who invented JavaScript?",
-      answered: true,
+      answered: false,
       answers: [
         { text: "Douglas Crockford", correct: false, selected: false },
         { text: "Sheryl Sandberg", correct: false, selected: false },
@@ -106,7 +34,7 @@ export const data = {
     },
     {
       question: "Which one of these is a JavaScript package manager?",
-      answered: true,
+      answered: false,
       answers: [
         { text: "Node.js", correct: false, selected: false },
         { text: "TypeScript", correct: false, selected: false },

@@ -11,9 +11,9 @@
     <script type="module">
       import { appendComponent } from '../../../lib/append-component.js';
 
-      import { table } from "./table.js";
+      import { questionWithOptions } from "./questionWithOptions.js";
       import { data } from "../../../data/quiz.js";
-      appendComponent(table(data.results), 'test 1');
+      appendComponent(questionWithOptions(data.questions[0], 1, 7), 'test 1');
 
     </script>
   </body>
