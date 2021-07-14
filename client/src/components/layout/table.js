@@ -1,11 +1,15 @@
 import { camelCaseToTitleCase } from "../../logic/camelCaseToTitleCase.js";
 
-export const table = (obj, tableClassList = []) => {
+export const table = (tableObject, titleTable) => {
+  const div = document.createElement("div");
+  div.className = "result-box";
+  const title = document.createElement("h2");
+  title.innerHTML = titleTable;
   const tableEl = document.createElement("table");
-  if (tableClassList.length !== 0) {
-    tableClassList.forEach((classStyle) => tableEl.classList.add(classStyle));
-  }
-  for (const [key, value] of Object.entries(obj)) {
+  div.appendChild(title);
+  div.appendChild(tableEl);
+
+  for (const [key, value] of Object.entries(tableObject)) {
     const trEl = document.createElement("tr");
     const tdKey = document.createElement("td");
     tdKey.innerHTML = camelCaseToTitleCase(key);
@@ -17,5 +21,5 @@ export const table = (obj, tableClassList = []) => {
     trEl.appendChild(tdValue);
     tableEl.appendChild(trEl);
   }
-  return tableEl;
+  return div;
 };
