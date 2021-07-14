@@ -10,7 +10,10 @@ export const schema = {
       type: "string",
       description: "a friendly greeting for the user",
     },
-
+    currentQuestion: {
+      type: "number",
+      description: "the question that the user is currently answering",
+    },
     questions: {
       type: "array",
       description: "the array of questions in the quiz",
@@ -49,27 +52,6 @@ export const schema = {
                 selected: {
                   type: "boolean",
                   description: "has the user selected this answer",
-                },
-              },
-            },
-          },
-
-          links: {
-            type: "array",
-            items: {
-              type: "object",
-              required: ["url"],
-
-              properties: {
-                url: {
-                  type: "string",
-                  description:
-                    "the url a student can open to learn more about this question",
-                },
-                text: {
-                  type: "string",
-                  description:
-                    "the text to display for this question. if missing, the url is displayed",
                 },
               },
             },

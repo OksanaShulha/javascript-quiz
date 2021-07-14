@@ -1,12 +1,9 @@
 import { camelCaseToTitleCase } from "../../logic/camelCaseToTitleCase.js";
 
-export const table = (tableObject, titleTable) => {
+export const table = (tableObject) => {
   const div = document.createElement("div");
   div.className = "result-box";
-  const title = document.createElement("h2");
-  title.innerHTML = titleTable;
   const tableEl = document.createElement("table");
-  div.appendChild(title);
   div.appendChild(tableEl);
 
   for (const [key, value] of Object.entries(tableObject)) {

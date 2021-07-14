@@ -1,4 +1,4 @@
-.option-container .option {
+.option {
   background-color: #ccc;
   padding: 15px;
   font-size: 16px;
@@ -8,4 +8,9 @@
   margin-bottom: 10px;
   cursor: pointer;
   text-transform: capitalize;
+}
+
+.option-container {
+  width: 80%;
+  margin: auto;
 }
