@@ -28,15 +28,24 @@
     - quiz
       - [index.js](#clientsrccomponentspagesquizindexjs)
   - shared
+    - [button.js](#clientsrccomponentssharedbuttonjs)
     - [input-greeting.js](#clientsrccomponentssharedinput-greetingjs)
+    - [options.js](#clientsrccomponentssharedoptionsjs)
+    - [progress-bar.js](#clientsrccomponentssharedprogress-barjs)
+    - [questionWithOptions.js](#clientsrccomponentssharedquestionWithOptionsjs)
+    - [title-description.js](#clientsrccomponentssharedtitle-descriptionjs)
 - handlers
   - [change-greeting.js](#clientsrchandlerschange-greetingjs)
+  - [goToHome.js](#clientsrchandlersgoToHomejs)
+  - [nextQuestion.js](#clientsrchandlersnextQuestionjs)
+  - [start-quiz.js](#clientsrchandlersstart-quizjs)
 - init
   - [index.js](#clientsrcinitindexjs)
   - [router.js](#clientsrcinitrouterjs)
   - [state.js](#clientsrcinitstatejs)
 - logic
   - [camelCaseToTitleCase.js](#clientsrclogiccamelCaseToTitleCasejs)
+  - [progress-bar.js](#clientsrclogicprogress-barjs)
   - [reverse.js](#clientsrclogicreversejs)
 - [routes.js](#clientsrcroutesjs)
 
@@ -158,7 +167,27 @@ The quiz page.
 
 ## /shared
 
+<details><summary><a href="../../client/src/components/shared/button.js" id="clientsrccomponentssharedbuttonjs">../client/src/components/shared/button.js</a></summary>
+
+</details>
+
 <details><summary><a href="../../client/src/components/shared/input-greeting.js" id="clientsrccomponentssharedinput-greetingjs">../client/src/components/shared/input-greeting.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/components/shared/options.js" id="clientsrccomponentssharedoptionsjs">../client/src/components/shared/options.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/components/shared/progress-bar.js" id="clientsrccomponentssharedprogress-barjs">../client/src/components/shared/progress-bar.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/components/shared/questionWithOptions.js" id="clientsrccomponentssharedquestionWithOptionsjs">../client/src/components/shared/questionWithOptions.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/components/shared/title-description.js" id="clientsrccomponentssharedtitle-descriptionjs">../client/src/components/shared/title-description.js</a></summary>
 
 </details>
 
@@ -169,6 +198,18 @@ The quiz page.
 # /handlers
 
 <details><summary><a href="../../client/src/handlers/change-greeting.js" id="clientsrchandlerschange-greetingjs">../client/src/handlers/change-greeting.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/goToHome.js" id="clientsrchandlersgoToHomejs">../client/src/handlers/goToHome.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/nextQuestion.js" id="clientsrchandlersnextQuestionjs">../client/src/handlers/nextQuestion.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/start-quiz.js" id="clientsrchandlersstart-quizjs">../client/src/handlers/start-quiz.js</a></summary>
 
 </details>
 
@@ -193,6 +234,10 @@ The quiz page.
 # /logic
 
 <details><summary><a href="../../client/src/logic/camelCaseToTitleCase.js" id="clientsrclogiccamelCaseToTitleCasejs">../client/src/logic/camelCaseToTitleCase.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/logic/progress-bar.js" id="clientsrclogicprogress-barjs">../client/src/logic/progress-bar.js</a></summary>
 
 </details>
 

@@ -17,7 +17,7 @@ const renderResultTable = () => {
   body.appendChild(titleEl);
   body.appendChild(tableEl);
   const tryAgainBtn = button("Try Again");
-  const goToHomeEl = button("Go To Home");
+  const goToHomeEl = button("Go To Home", goToHome);
   body.appendChild(tryAgainBtn);
   body.appendChild(goToHomeEl);
 };

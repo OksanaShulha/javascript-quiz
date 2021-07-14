@@ -1,4 +1,4 @@
- .right-answer {
+.right-answer {
   display: inline-block;
   margin: 5px;
   background-color: green;
@@ -6,25 +6,25 @@
   width: 20px;
   border-radius: 50%;
 }
+
 .wrong-answer {
-display: inline-block;
-margin: 5px;
-background-color: red;
-height: 20px;
-width: 20px;
-border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
+
 .neutral {
-display: inline-block;
-margin: 5px;
-background-color: grey;
-height: 20px;
-width: 20px;
-border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  background-color: grey;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
 
 .progress-bar {
-    display: inline-block;
+  display: inline-block;
 }
-
-
