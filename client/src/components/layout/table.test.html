@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="../../../styles/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <script type="module">
+      import { appendComponent } from '../../../lib/append-component.js';
+
+      import { table } from "./table.js";
+      import { data } from "../../../data/quiz.js";
+      appendComponent(table(data.results, 'Quiz Result'), 'test 1');
+
+    </script>
+  </body>
+</html>

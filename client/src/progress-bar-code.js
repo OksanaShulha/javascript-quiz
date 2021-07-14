@@ -1,2 +1,1 @@
-import { questions } from "./components/pages/questions"
-
+import { questions } from "./components/pages/questions";
