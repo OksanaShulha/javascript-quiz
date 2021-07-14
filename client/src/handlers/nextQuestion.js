@@ -7,16 +7,19 @@ import { goToHome } from "./goToHome.js";
 
 const renderResultTable = () => {
   const body = document.querySelector(".body");
+  const nextBtn = document.querySelector("button");
+  const progressBarEl = document.querySelector(".progress-bar");
   body.firstElementChild.remove();
+  body.removeChild(nextBtn);
+  body.removeChild(progressBarEl);
   const titleEl = titleDescription("Results", "A description");
   const tableEl = table(state.results);
-  body.lastElementChild.remove();
   body.appendChild(titleEl);
   body.appendChild(tableEl);
   const tryAgainBtn = button("Try Again");
   const goToHomeEl = button("Go To Home");
   body.appendChild(tryAgainBtn);
-  body.appendChild(goToHomeEl, goToHome);
+  body.appendChild(goToHomeEl);
 };
 
 export const nextQuestion = () => {
