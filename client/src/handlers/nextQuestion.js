@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import { state } from "../init/state.js";
 import { questionWithOptions } from "../components/shared/questionWithOptions.js";
 import { table } from "../components/layout/table.js";
