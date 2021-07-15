@@ -8,9 +8,9 @@
 }
 
 .title-header {
-  height: 50vh;
+  height: 50px;
   position: fixed;
-  top: 50%;
+  top: 8%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
