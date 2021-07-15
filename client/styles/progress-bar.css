@@ -2,8 +2,8 @@
   display: inline-block;
   margin: 5px;
   background-color: green;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 }
 
@@ -11,8 +11,8 @@
   display: inline-block;
   margin: 5px;
   background-color: red;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 }
 
@@ -20,8 +20,8 @@
   display: inline-block;
   margin: 5px;
   background-color: grey;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 }
 
