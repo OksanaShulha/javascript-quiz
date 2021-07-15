@@ -38,6 +38,7 @@
   - [change-greeting.js](#clientsrchandlerschange-greetingjs)
   - [goToHome.js](#clientsrchandlersgoToHomejs)
   - [nextQuestion.js](#clientsrchandlersnextQuestionjs)
+  - [selectAnswer.js](#clientsrchandlersselectAnswerjs)
   - [start-quiz.js](#clientsrchandlersstart-quizjs)
   - [tryAgain.js](#clientsrchandlerstryAgainjs)
 - init
@@ -207,6 +208,10 @@ The quiz page.
 </details>
 
 <details><summary><a href="../../client/src/handlers/nextQuestion.js" id="clientsrchandlersnextQuestionjs">../client/src/handlers/nextQuestion.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/selectAnswer.js" id="clientsrchandlersselectAnswerjs">../client/src/handlers/selectAnswer.js</a></summary>
 
 </details>
 
