@@ -1,9 +1,11 @@
 import { state } from "../../../init/state.js";
 import { questionWithOptions } from "../../shared/questionWithOptions.js";
 import { button } from "../../shared/button.js";
+// eslint-disable-next-line import/no-cycle
 import { nextQuestion } from "../../../handlers/nextQuestion.js";
 import { progressBar } from "../../shared/progress-bar.js";
 import { getProgress } from "../../../logic/progress-bar.js";
+import { selectAnswer } from "../../../handlers/selectAnswer.js";
 
 /**
  * The quiz page.
@@ -26,5 +28,6 @@ export const quiz = () => {
   container.appendChild(nextBtn);
   const progressDotEl = progressBar(getProgress());
   container.appendChild(progressDotEl);
+  container.addEventListener("click", selectAnswer);
   return container;
 };
