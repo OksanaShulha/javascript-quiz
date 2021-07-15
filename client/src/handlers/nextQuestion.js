@@ -4,6 +4,7 @@ import { table } from "../components/layout/table.js";
 import { titleDescription } from "../components/shared/title-description.js";
 import { button } from "../components/shared/button.js";
 import { goToHome } from "./goToHome.js";
+import { tryAgain } from "./tryAgain.js";
 
 const renderResultTable = () => {
   const body = document.querySelector(".body");
@@ -16,7 +17,7 @@ const renderResultTable = () => {
   const tableEl = table(state.results);
   body.appendChild(titleEl);
   body.appendChild(tableEl);
-  const tryAgainBtn = button("Try Again");
+  const tryAgainBtn = button("Try Again", tryAgain);
   const goToHomeEl = button("Go To Home", goToHome);
   body.appendChild(tryAgainBtn);
   body.appendChild(goToHomeEl);
