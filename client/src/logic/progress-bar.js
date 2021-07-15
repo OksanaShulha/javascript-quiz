@@ -1,33 +1,37 @@
-import { data } from "../../data/quiz.js";
+import { state } from "../init/state.js";
 
 const userAnsweredRight = (answers) => {
   for (let i = 0; i < answers.length; i++) {
     const answer = answers[i];
     // if (answer.correct !== answer.selected)
     if (
-      // the users answer is wrong
-      (answer.correct === true && answer.selected === false) ||
-      (answer.correct === false && answer.selected === true)
+      // the users answer is right
+      answer.correct === true &&
+      answer.selected === true
     ) {
-      return false;
+      return true;
     }
   }
-  // the users answer is correct
-  return true;
+  // the users answer is wrong
+  return false;
 };
 
 // this function has to return an array with statuses based om data
 export const getProgress = () => {
   const statuses = [];
-  for (const question of data.questions) {
-    if (question.answered === false) {
+  const { questions } = state;
+  questions.forEach((question) => {
+    const { answered, answers } = question;
+    // if user do not answer the question
+    if (!answered) {
       statuses.push("neutral");
+      return;
+    }
+    if (userAnsweredRight(answers)) {
+      statuses.push("right");
     } else {
-      if (userAnsweredRight(question.answers) === true) {
-        statuses.push("right");
-      }
       statuses.push("wrong");
     }
-  }
+  });
   return statuses;
 };

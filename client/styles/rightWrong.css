@@ -1,0 +1,23 @@
+.right {
+  background-color: green;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.wrong {
+  background-color: red;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
