@@ -2,11 +2,11 @@
 import { state } from "../init/state.js";
 import { questionWithOptions } from "../components/shared/questionWithOptions.js";
 import { table } from "../components/layout/table.js";
-import { titleDescription } from "../components/shared/title-description.js";
 import { button } from "../components/shared/button.js";
 import { goToHome } from "./goToHome.js";
 import { tryAgain } from "./tryAgain.js";
 import { finalResultObj } from "../logic/finalResults.js";
+import { resultDescriptionRange } from "../components/layout/resultsDescriptionRange.js";
 
 const renderResultTable = () => {
   const body = document.querySelector(".body");
@@ -15,11 +15,11 @@ const renderResultTable = () => {
   body.firstElementChild.remove();
   body.removeChild(nextBtn);
   body.removeChild(progressBarEl);
-  const titleEl = titleDescription("Results", "A description");
   // update the state
   const finalResults = finalResultObj();
   state.results.percentage = finalResults.percentage;
   state.results.totalScore = finalResults.totalScore;
+  const titleEl = resultDescriptionRange(state.results.correctAnswers);
   const tableEl = table(finalResults);
   body.appendChild(titleEl);
   body.appendChild(tableEl);
