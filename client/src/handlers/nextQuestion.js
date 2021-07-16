@@ -19,7 +19,8 @@ const renderResultTable = () => {
   const finalResults = finalResultObj();
   state.results.percentage = finalResults.percentage;
   state.results.totalScore = finalResults.totalScore;
-  const titleEl = resultDescriptionRange(state.results.correctAnswers);
+  const { correctAnswers, totalQuestions } = state.results;
+  const titleEl = resultDescriptionRange(correctAnswers, totalQuestions);
   const tableEl = table(finalResults);
   body.appendChild(titleEl);
   body.appendChild(tableEl);
