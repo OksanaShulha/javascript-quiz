@@ -6,6 +6,7 @@ import { titleDescription } from "../components/shared/title-description.js";
 import { button } from "../components/shared/button.js";
 import { goToHome } from "./goToHome.js";
 import { tryAgain } from "./tryAgain.js";
+import { finalResultObj } from "../logic/finalResults.js";
 
 const renderResultTable = () => {
   const body = document.querySelector(".body");
@@ -15,7 +16,11 @@ const renderResultTable = () => {
   body.removeChild(nextBtn);
   body.removeChild(progressBarEl);
   const titleEl = titleDescription("Results", "A description");
-  const tableEl = table(state.results);
+  // update the state
+  const finalResults = finalResultObj();
+  state.results.percentage = finalResults.percentage;
+  state.results.totalScore = finalResults.totalScore;
+  const tableEl = table(finalResults);
   body.appendChild(titleEl);
   body.appendChild(tableEl);
   const tryAgainBtn = button("Try Again", tryAgain);

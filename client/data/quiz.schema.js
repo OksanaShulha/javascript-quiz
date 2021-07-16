@@ -88,11 +88,11 @@ export const schema = {
           description: "total of user's wrong answers",
         },
         percentage: {
-          type: "number",
+          type: "string",
           description: "percentage of correct answers",
         },
         totalScore: {
-          type: "number",
+          type: "string",
           description:
             "total of user's correct answer in based on number of questions",
         },
