@@ -19,6 +19,7 @@
     - [footer.js](#clientsrccomponentslayoutfooterjs)
     - [navbar.js](#clientsrccomponentslayoutnavbarjs)
     - [page.js](#clientsrccomponentslayoutpagejs)
+    - [resultsDescriptionRange.js](#clientsrccomponentslayoutresultsDescriptionRangejs)
     - [table.js](#clientsrccomponentslayouttablejs)
   - pages
     - home
@@ -107,6 +108,10 @@ The page layout component.
 | ------------- | ------------------------------------------------- | ----------------------------------------- |
 | bodyComponent | <code>function</code> \| <code>HTMLElement</code> | The body for the newly rendered page.     |
 | routes        | <code>object</code>                               | The application's routes, for the navbar. |
+
+</details>
+
+<details><summary><a href="../../client/src/components/layout/resultsDescriptionRange.js" id="clientsrccomponentslayoutresultsDescriptionRangejs">../client/src/components/layout/resultsDescriptionRange.js</a></summary>
 
 </details>
 
