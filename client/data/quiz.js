@@ -58,7 +58,7 @@ export const data = {
     attempts: 0,
     correctAnswers: 0,
     wrongAnswers: 0,
-    percentage: 0,
-    totalScore: 0,
+    percentage: ``,
+    totalScore: ``,
   },
 };
