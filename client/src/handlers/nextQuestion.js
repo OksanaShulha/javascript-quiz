@@ -27,15 +27,8 @@ const renderResultTable = () => {
 export const nextQuestion = () => {
   const body = document.querySelector(".body");
   let nextQuestionIndex = state.currentQuestion;
-  const { currentQuestion } = state;
   const { questions } = state;
   const { totalQuestions } = state.results;
-  // if user doesn't answer the question
-  let { attempts } = state.results;
-  if (questions[currentQuestion].answered === false) {
-    attempts++;
-    state.results.attempts = attempts;
-  }
   // if user finish the questions
   if (state.currentQuestion === totalQuestions - 1) {
     return renderResultTable();

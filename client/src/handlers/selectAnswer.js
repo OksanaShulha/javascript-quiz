@@ -25,11 +25,15 @@ export const selectAnswer = (event) => {
   const { questions, currentQuestion } = state;
   let correctAnswer = state.results.correctAnswers;
   let wrongAnswer = state.results.wrongAnswers;
+  let attempt = state.results.attempts;
   // check if user answer
   if (state.questions[currentQuestion].answered === true) return;
 
   if (target.className === "option") {
     questions[currentQuestion].answered = true;
+    // if user doesn't answer the question
+    attempt++;
+    state.results.attempts = attempt;
     for (let i = 0; i < questions[currentQuestion].answers.length; i++) {
       const option = questions[currentQuestion].answers[i];
       // check which option is selected
