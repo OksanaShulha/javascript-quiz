@@ -47,6 +47,7 @@
   - [state.js](#clientsrcinitstatejs)
 - logic
   - [camelCaseToTitleCase.js](#clientsrclogiccamelCaseToTitleCasejs)
+  - [finalResults.js](#clientsrclogicfinalResultsjs)
   - [progress-bar.js](#clientsrclogicprogress-barjs)
   - [reverse.js](#clientsrclogicreversejs)
 - [routes.js](#clientsrcroutesjs)
@@ -244,6 +245,10 @@ The quiz page.
 # /logic
 
 <details><summary><a href="../../client/src/logic/camelCaseToTitleCase.js" id="clientsrclogiccamelCaseToTitleCasejs">../client/src/logic/camelCaseToTitleCase.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/logic/finalResults.js" id="clientsrclogicfinalResultsjs">../client/src/logic/finalResults.js</a></summary>
 
 </details>
 
