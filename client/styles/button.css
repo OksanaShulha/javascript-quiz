@@ -12,19 +12,16 @@
 
 }
 
+
+.custom-box .btn{
+  margin: auto;
+  display: block;
+}
+
 .quiz-box .btn {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.custom-box .btn{
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 80px;
-  
-  position: relative;
-  left: 45%;;
-  padding-bottom: 15px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
