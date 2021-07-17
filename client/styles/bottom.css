@@ -1,5 +1,11 @@
 .bottom {
   position: fixed;
   left: 0;
+  height: 20px;
   bottom: 0;
+  width: 100%;
+  background-color: rgb(144, 190, 179);
+  color: white;
+  text-align: center;
+  margin-top: 10px;
 }

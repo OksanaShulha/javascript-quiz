@@ -9,10 +9,22 @@
   cursor: pointer;
   display: inline-block;
   margin: 20px;
+
 }
 
 .quiz-box .btn {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.custom-box .btn{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  
+  position: relative;
+  left: 45%;;
+  padding-bottom: 15px;
 }
