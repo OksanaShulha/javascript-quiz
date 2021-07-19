@@ -1,4 +1,9 @@
 .body {
+
+  height: 75vh;
+  position: absolute;
+  width: 55%;
+  top: 50%;
   height: 50vh;
   position: fixed;
   top: 35%;

@@ -1,7 +1,7 @@
 .option {
   background-color: #ccc;
   padding: 15px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   color: #000;
   border-radius: 5px;
@@ -10,7 +10,6 @@
   text-transform: capitalize;
   text-align: center;
 }
-
 .option-container {
   width: 80%;
   margin: auto;
