@@ -16,7 +16,7 @@ export const home = () => {
 
   // container.appendChild(inputGreeting());
   container.appendChild(
-    titleDescription("Instructions", "The number of questions: 5")
+    titleDescription("Instruction:", "The number of questions: 5")
   );
   container.appendChild(button("Start Quiz", startQuiz));
   return container;
