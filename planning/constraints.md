@@ -3,6 +3,7 @@
 Some boundaries around our project.
 
 ## External
+Time : 2 week
 
 <!--
   constraints coming from the outside that your team has no control over. these may include:
